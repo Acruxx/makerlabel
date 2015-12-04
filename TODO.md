@@ -1,0 +1,14 @@
+- [ ] Update models with required and such where applicable:
+	- [x] Comment is not required for tags
+	- [ ] member_id and box_number should be unique implent a unique constraint
+- [x] Add urls to latex for the QR-code and send it to the template for inclusion
+- [x] Move urls to /*
+- [ ] Add a configurationation option to change between different paper sizes
+- [ ] Create a dummy user with id 1 to make the dirty hack in forms.py somewhat stable
+- [ ] Remove ugly hack in forms.py
+- [x] Generate a better pdf file name in models.py
+- [ ] Add view and form for adding comments to machines
+- [ ] Extract common super class from MachineTagAdd and Add view classes
+- [ ] Extract common super class for MachineTagDetailView and MemberDetailView view classes
+- [ ] Look for more candidates for super class extraction
+- [x] Timestamp for comments
